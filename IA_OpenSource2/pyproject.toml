@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ia-opensource2"
+version = "0.1.0"
+description = ""
+authors = ["gonzalo180409 <gonzalo.solor00@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ia_opensource2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+stopwords = "^1.0.0"
+nltk = "^3.8.1"
+wordcloud = "^1.8.2.2"
+beautifulsoup4 = "^4.11.2"
+pypdf2 = "^3.0.1"
+matplotlib = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
