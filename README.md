@@ -15,3 +15,6 @@ To manage the develoment enviroment od this python project, poetry (version 1.3.
 The goal is to dockerize the whole enviroment.
 
 More detailed project specifications are documented in the IA_OpenSource2/IA_OpenSource2/README.md
+
+docker run --rm -it --network="test" -v /home/kali/IA_OpenSource2/montaje:/Proy/Resources dockerfile
+
