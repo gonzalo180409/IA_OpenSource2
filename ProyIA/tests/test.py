@@ -17,7 +17,7 @@ class TestGrobidService(unittest.TestCase):
                 pdf_path = os.path.join(pdf_dir, pdf_file)
                 files = {'input': open(pdf_path, 'rb')}
                 response = requests.post(url, files = files)
-                self.assertEqual(response.status_code, 200, f"Error en {pdf_file}")
+                self.assertEqual(response.status_code, 200, f"Error en {pdf_file}, compruebe si el archivo está en formato pdf")
 
 if __name__ == '__main__':
     test_suite = unittest.TestLoader().loadTestsFromTestCase(TestGrobidService)
