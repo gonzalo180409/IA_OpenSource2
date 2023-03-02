@@ -29,7 +29,7 @@ lfoppiano/grobid:0.7.2 is the image to use.
 
 4: Move to the next path: /.../IA_OpenSource2/montaje/Resources and copy the PDFs you want to be examined
 
-Take results will be displayed at the /.../IA_OpenSource2/montaje/Resources/figures.
+Take results will be displayed at the /.../IA_OpenSource2/montaje/Resources/figures
 
 5: Move to the next path: /.../IA_OpenSource2 and execute the following command: docker build -t dockerfile .
 
@@ -41,7 +41,7 @@ poetry shell
 
 poetry run python3 main.py
 
-It takes around 1 min to process all the PDFs and the outputs are displayed 
+It takes around 1 min to process all the PDFs and the outputs are displayed at /.../IA_OpenSource2/montaje/Resources/figures
 
 
 
