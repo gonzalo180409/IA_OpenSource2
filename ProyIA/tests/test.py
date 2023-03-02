@@ -5,12 +5,12 @@ import os
 class TestGrobidService(unittest.TestCase):
 
     def test_grobid_up(self):
-        url = "http://localhost:8070"
+        url = "http://grobid:8070"
         response = requests.get(url)
         self.assertEqual(response.status_code, 200)
 
     def test_grobid_pdf(self):
-        url = "http://localhost:8070/api/processFulltextDocument"
+        url = "http://grobid:8070/api/processFulltextDocument"
         pdf_dir = '../Resources'
         for pdf_file in os.listdir(pdf_dir):
             if pdf_file.endswith('.pdf'):

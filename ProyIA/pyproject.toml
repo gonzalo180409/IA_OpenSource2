@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["gonzalo180409 <gonzalo.solor00@gmail.com>"]
 readme = "README.md"
-packages = [{include = "ia_opensource2"}]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"

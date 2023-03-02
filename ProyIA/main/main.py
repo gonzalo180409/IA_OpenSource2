@@ -13,7 +13,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 #Configuración del servidor de Grobid
-grobid_url = "http://localhost:8070/api/processFulltextDocument"
+grobid_url = "http://grobid:8070/api/processFulltextDocument"
 #Directorio que contiene los PDFs a enviar
 pdf_dir = "../Resources"
 #Lista de palabras vacías en ingles
@@ -50,15 +50,15 @@ for filename in os.listdir(pdf_dir):
                     word_freq[token] = 1
 #---------------------------------------------------------------------------------------------------
 
-if len(os.listdir("../figures"))!=0:
-    os.remove("../figures/wordcloud.png")
-    os.remove("../figures/num_images.png")
+if len(os.listdir("../Resources/figures"))!=0:
+    os.remove("../Resources/figures/wordcloud.png")
+    os.remove("../Resources/figures/num_images.png")
 
 wordcloud = WordCloud(width=800, height=800, background_color="white").generate_from_frequencies(word_freq)
 plt.figure(figsize=(8, 8))
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-plt.savefig('../figures/wordcloud.png')
+plt.savefig('../Resources/figures/wordcloud.png')
 
 plt.clf()
 
@@ -68,4 +68,4 @@ y = list(figure_freq.values())
 plt.bar(x, y)
 plt.xticks(rotation=90)
 plt.ylabel("Numero de figuras")
-plt.savefig('../figures/num_images.png')
+plt.savefig('../Resources/figures/num_images.png')
