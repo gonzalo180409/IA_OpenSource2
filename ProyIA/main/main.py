@@ -49,7 +49,11 @@ for filename in os.listdir(pdf_dir):
                 else:
                     word_freq[token] = 1
 #---------------------------------------------------------------------------------------------------
-
+#LINKS----------------------------------------------------------------------------------------------
+            patron_url = re.compile(r'(?:http[s]?://)?(www.[^\s]+)')
+            urlsencontradas = re.findall(patron_url, xml_test)
+            print(f"Links del pdf {filename}: "+urlsencontradas)
+#---------------------------------------------------------------------------------------------------
 if len(os.listdir("../Resources/figures")) > 1:
     os.remove("../Resources/figures/wordcloud.png")
     os.remove("../Resources/figures/num_images.png")
