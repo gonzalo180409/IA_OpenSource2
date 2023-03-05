@@ -52,7 +52,7 @@ for filename in os.listdir(pdf_dir):
 #LINKS----------------------------------------------------------------------------------------------
             patron_url = re.compile(r'(?:http[s]?://)?(www.[^\s]+)')
             urlsencontradas = re.findall(patron_url, xml_test)
-            print(f"Links del pdf {filename}: "+urlsencontradas)
+            print(f"Links del pdf {filename}: "+str(urlsencontradas))
 #---------------------------------------------------------------------------------------------------
 if len(os.listdir("../Resources/figures")) > 1:
     os.remove("../Resources/figures/wordcloud.png")
