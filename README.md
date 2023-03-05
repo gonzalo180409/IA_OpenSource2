@@ -33,7 +33,7 @@ Take results will be displayed at the /.../IA_OpenSource2/montaje/Resources/figu
 
 5: Move to the next path: /.../IA_OpenSource2 and execute the following command: docker build -t dockerfile .
 
-6: Execute the following command: docker run --rm -it --network="<nombre_de_la_red>" -v /.../IA_OpenSource2/montaje:/Proy/Resources dockerfile
+6: Execute the following command: docker run --rm -it --network="<nombre_de_la_red>" -v /.../IA_OpenSource2/montaje/Resources:/Proy/Resources dockerfile
 
 7: Inside the container execute the following commands: 
 
