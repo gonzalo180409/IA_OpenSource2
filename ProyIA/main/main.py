@@ -50,7 +50,7 @@ for filename in os.listdir(pdf_dir):
                     word_freq[token] = 1
 #---------------------------------------------------------------------------------------------------
 
-if len(os.listdir("../Resources/figures"))!=0:
+if len(os.listdir("../Resources/figures")) > 1:
     os.remove("../Resources/figures/wordcloud.png")
     os.remove("../Resources/figures/num_images.png")
 
