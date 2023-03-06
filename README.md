@@ -21,6 +21,8 @@ It is assumed that you have docker and the grobid image installed on your comput
 
 lfoppiano/grobid:0.7.2 is the image to use.
 
+PDFs to be reviewed must be written in English.
+
 1: git clone this repository
 
 2: create a docker network with the following command: docker network create <nombre_de_la_red>
@@ -42,6 +44,8 @@ poetry shell
 poetry run python3 main.py
 
 It takes around 1 min to process all the PDFs and the outputs are displayed at /.../IA_OpenSource2/montaje/Resources/figures
+
+The links will be displayed on the terminal screen.
 
 
 
