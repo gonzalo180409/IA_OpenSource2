@@ -37,6 +37,8 @@ Take results will be displayed at the /.../IA_OpenSource2/montaje/Resources/figu
 
 6: Execute the following command: docker run --rm -it --network="<nombre_de_la_red>" -v /.../IA_OpenSource2/montaje/Resources:/Proy/Resources dockerfile
 
+(Make sure you use your own docker network and your own path /.../)
+
 7: Inside the container execute the following commands: 
 
 poetry shell
@@ -46,6 +48,10 @@ poetry run python3 main.py
 It takes around 1 min to process all the PDFs and the outputs are displayed at /.../IA_OpenSource2/montaje/Resources/figures
 
 The links will be displayed on the terminal screen.
+
+8: To execute the test, inside the container, move to the Path: /Proy/tests and execute the following command: 
+poetry shell (if you didn´t did it before)
+poetry run python3 test.py
 
 
 
