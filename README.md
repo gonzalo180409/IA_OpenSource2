@@ -11,6 +11,9 @@ The objectives are:
 *Drawing a keyword cloud based on the words found in the abstract of the PDFs
 
 *Create a visualization showing the number of figures per article
+
+*Show external links from within PDFs
+
 (How to achieve these objectives is documented in the document rationales.md located at IA_OpenSource2/rationales.md)
 
 To manage the develoment enviroment od this python project, poetry has been the tool to use.
