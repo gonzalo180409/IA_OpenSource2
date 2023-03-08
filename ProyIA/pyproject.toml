@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ia-opensource2"
-version = "0.1.0"
-description = ""
+version = "2.0.0"
+description = " "
 authors = ["gonzalo180409 <gonzalo.solor00@gmail.com>"]
 readme = "README.md"
 
