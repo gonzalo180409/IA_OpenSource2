@@ -24,7 +24,7 @@ It is assumed that you have docker and the grobid image installed on your comput
 
 lfoppiano/grobid:0.7.2 is the image to use.
 
-PDFs to be reviewed must be written in English.
+PDFs to be reviewed must be written in English and located in the /.../IA_OpenSource2/montaje/Resources folder.
 
 1: git clone this repository
 
