@@ -54,6 +54,7 @@ for filename in os.listdir(pdf_dir):
             urlsencontradas = re.findall(patron_url, xml_test)
             print(f"Links del pdf {filename}: "+str(urlsencontradas))
 #---------------------------------------------------------------------------------------------------
+#Si ya están los archivos, los borra
 if len(os.listdir("../Resources/figures")) > 1:
     os.remove("../Resources/figures/wordcloud.png")
     os.remove("../Resources/figures/num_images.png")
