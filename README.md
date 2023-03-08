@@ -1,6 +1,6 @@
 # IA_OpenSource2
 
--Autor: Gonzalo Solórzano Calvo
+-Author: Gonzalo Solórzano Calvo
 
 -Title: IA_OpenSource2
 
