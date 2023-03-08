@@ -1,3 +1,4 @@
+#dockerfile for building the image
 FROM ubuntu:lunar
 RUN apt-get update -y
 RUN apt-get install -y
