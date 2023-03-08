@@ -54,5 +54,6 @@ It takes around 1 min to process all the PDFs and the outputs are displayed at /
 
 The links will be displayed on the terminal screen.
 
+8: To execute the tests, inside the container move to the following path: /Proy/tests and execute the following command: poetry run python3 test.py
 
 
