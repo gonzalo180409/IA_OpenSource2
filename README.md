@@ -3,7 +3,7 @@
 -Author: Gonzalo Solórzano Calvo
 
 -Title: IA_OpenSource2
-
+-DOI: https://zenodo.org/badge/latestdoi/606430160
 -Description: This is an individual project of the IA_Open_Source course of the ETSIINF computer science faculty.
 This project consists of analyzing PDFs using the Grobid service.
 The objectives are:
